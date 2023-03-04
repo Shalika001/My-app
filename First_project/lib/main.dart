@@ -15,16 +15,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-            'Hello Shalika!!',
-            style: TextStyle(
-              fontSize: 30.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.cyanAccent[700],
-              letterSpacing: 2.0,
-              fontFamily: 'ShantellSans',
-            )
-        ),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size: 50.0,
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
