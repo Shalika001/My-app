@@ -8,6 +8,10 @@ void main() => runApp(MaterialApp(
     ),
     body: Center(
       child: Text('Hello Shalika!!'),
-    )
+    ),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {  },
+      child: Text('Click'),
+    ),
   ),
 ));
