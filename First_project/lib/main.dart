@@ -8,7 +8,16 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.red[600],
     ),
     body: Center(
-      child: Text('Hello Shalika!!'),
+      child: Text(
+          'Hello Shalika!!',
+        style: TextStyle(
+          fontSize: 30.0,
+          fontWeight: FontWeight.bold,
+          color: Colors.cyanAccent[700],
+          letterSpacing: 2.0,
+          fontFamily:
+        )
+      ),
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {  },
