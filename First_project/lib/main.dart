@@ -4,6 +4,10 @@ void main() => runApp(MaterialApp(
   home: Scaffold(
     appBar: AppBar(
       title: Text('My first app'),
+      centerTitle: true,
     ),
+    body: Center(
+      child: Text('Hello Shalika!!'),
+    )
   ),
 ));
