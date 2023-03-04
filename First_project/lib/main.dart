@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
     appBar: AppBar(
       title: Text('My first app'),
       centerTitle: true,
+      backgroundColor: Colors.red[600],
     ),
     body: Center(
       child: Text('Hello Shalika!!'),
@@ -12,6 +13,7 @@ void main() => runApp(MaterialApp(
     floatingActionButton: FloatingActionButton(
       onPressed: () {  },
       child: Text('Click'),
+      backgroundColor: Colors.red[600],
     ),
   ),
 ));
