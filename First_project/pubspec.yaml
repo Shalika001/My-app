@@ -76,7 +76,7 @@ flutter:
   fonts:
     - family: ShantellSans
       fonts:
-        - asset: fonts/ShantellSans-Lightitalic.ttf
+        - asset: fonts/ShantellSans-Light.ttf
 
   #
   # For details regarding fonts from package dependencies,

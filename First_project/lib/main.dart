@@ -15,12 +15,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
+        child: Image(
+          image: AssetImage('assets/fitness-2.jpg'),
         )
-      ),
+        ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('Click'),
@@ -28,4 +26,7 @@ class Home extends StatelessWidget {
       ),
     );
   }
+}
+
+class RaisedButton {
 }
