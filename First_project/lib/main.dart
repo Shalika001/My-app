@@ -15,10 +15,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/fitness-2.jpg'),
-        )
-        ),
+         child: ElevatedButton(
+           onPressed: () {},
+           child: Text('click Me'),
+           ),
+         ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('Click'),
@@ -26,7 +27,4 @@ class Home extends StatelessWidget {
       ),
     );
   }
-}
-
-class RaisedButton {
 }
