@@ -19,11 +19,28 @@ class Home extends StatelessWidget {
 
 
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Container(
-            padding: EdgeInsets.all(30.0),
+            padding: EdgeInsets.all(20.0),
             color: Colors.blue,
             child: Text('One'),
+          ),
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.amber,
+            child: Text('tow'),
+          ),
+          Container(
+            padding: EdgeInsets.all(40.0),
+            color: Colors.deepOrangeAccent,
+            child: Text('Three'),
+          ),
+          Container(
+            padding: EdgeInsets.all(50.0),
+            color: Colors.lightGreenAccent,
+            child: Text('Four'),
           ),
         ],
       ),
