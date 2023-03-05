@@ -13,16 +13,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-          child: Text(
-              'Hello Shalika!!',
-              style: TextStyle(
-                fontSize: 30.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.cyanAccent[700],
-                letterSpacing: 2.0,
-                fontFamily: 'ShantellSans',
-              )
-          ),
+          child: ElevatedButton(
+            child: Text('Click me'),
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.deepOrange,
+            ),
+          )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
