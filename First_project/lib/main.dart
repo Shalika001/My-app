@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-
 void main() => runApp(MaterialApp(
   home: Home(),
 ));
-
 class Home extends StatelessWidget {
   //const Home({Key? key}) : super(key: key);
   @override
@@ -15,13 +13,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-         child: ElevatedButton(
-           onPressed: () {},
-           child: Text('click Me'),
-           style: ElevatedButton.styleFrom(
-             backgroundColor: Colors.pink,
-           ),
-         ),
+          child: Text(
+              'Hello Shalika!!',
+              style: TextStyle(
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.cyanAccent[700],
+                letterSpacing: 2.0,
+                fontFamily: 'ShantellSans',
+              )
+          ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
@@ -30,4 +31,7 @@ class Home extends StatelessWidget {
       ),
     );
   }
+}
+
+class RaisedButton {
 }
