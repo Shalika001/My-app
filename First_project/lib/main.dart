@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello shalika!!',
+          'Hello shalika!',
           style: TextStyle(
             fontSize: 30.0,
             fontWeight: FontWeight.bold,
