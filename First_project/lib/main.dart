@@ -15,16 +15,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          'Hello shalika!',
-          style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.blue,
-            fontFamily: 'ShantellSans',
-          ),
-         ),
+        child: Image(
+          image: AssetImage('assets/fitness-2.jpg'),
+        )
         ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
