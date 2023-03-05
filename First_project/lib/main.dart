@@ -14,7 +14,9 @@ class Home extends StatelessWidget {
       ),
       body: Center(
           child: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              print('Click Me');
+            },
             icon: Icon(Icons.mail),
             color: Colors.amber,
           )
