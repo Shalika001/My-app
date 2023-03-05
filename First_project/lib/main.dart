@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+
 void main() => runApp(MaterialApp(
   home: Home(),
 ));
+
 
 class Home extends StatelessWidget {
   //const Home({Key? key}) : super(key: key);
@@ -14,11 +16,16 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Image(
-          image: AssetImage('assets/fitness-2.jpg'),
-        )
+
+
+      body: Container(
+        padding: EdgeInsets.fromLTRB(40.0, 30.0, 30.0, 40.0),
+        margin: EdgeInsets.all(35.0),
+        color: Colors.green,
+        child: Text('Sri lanka'),
         ),
+
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('Click'),
