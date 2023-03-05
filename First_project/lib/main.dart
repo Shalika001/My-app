@@ -15,12 +15,17 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
-        )
-      ),
+        child: Text(
+          'Hello shalika!!',
+          style: TextStyle(
+            fontSize: 30.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.blue,
+            fontFamily: 'ShantellSans',
+          ),
+         ),
+        ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('Click'),
@@ -28,4 +33,7 @@ class Home extends StatelessWidget {
       ),
     );
   }
+}
+
+class RaisedButton {
 }
