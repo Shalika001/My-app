@@ -19,7 +19,9 @@ class Home extends StatelessWidget {
 
 
       body: Container(
+        padding: EdgeInsets.fromLTRB(20, 30, 30, 40),
         color: Colors.green,
+        child: Text('Sri lanka'),
         ),
 
 
