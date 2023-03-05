@@ -18,12 +18,15 @@ class Home extends StatelessWidget {
       ),
 
 
-      body: Container(
-        padding: EdgeInsets.fromLTRB(40.0, 30.0, 30.0, 40.0),
-        margin: EdgeInsets.all(35.0),
-        color: Colors.green,
-        child: Text('Sri lanka'),
-        ),
+      body: Column(
+        children: [
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.blue,
+            child: Text('One'),
+          ),
+        ],
+      ),
 
 
       floatingActionButton: FloatingActionButton(
