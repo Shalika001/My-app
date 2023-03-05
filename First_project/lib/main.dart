@@ -19,9 +19,15 @@ class Home extends StatelessWidget {
 
 
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
+          Row(
+            children: <Widget>[
+              Text('Hello'),
+              Text('Sri Lanka'),
+            ],
+          ),
           Container(
             padding: EdgeInsets.all(20.0),
             color: Colors.blue,
