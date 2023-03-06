@@ -18,12 +18,38 @@ class Home extends StatelessWidget {
       ),
 
 
-      body: Container(
-        padding: EdgeInsets.fromLTRB(40.0, 30.0, 30.0, 40.0),
-        margin: EdgeInsets.all(35.0),
-        color: Colors.green,
-        child: Text('Sri lanka'),
-        ),
+      body: Row(
+            children: <Widget>[
+              Expanded(
+                  child: Image.asset('assets/fitness-4.jpg'),
+                flex: 3,
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.blue,
+                  child: Text('1'),
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.amber,
+                  child: Text('2'),
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  padding: EdgeInsets.all(30.0),
+                  color: Colors.deepOrangeAccent,
+                  child: Text('3'),
+                ),
+              ),
+            ],
+          ),
 
 
       floatingActionButton: FloatingActionButton(
